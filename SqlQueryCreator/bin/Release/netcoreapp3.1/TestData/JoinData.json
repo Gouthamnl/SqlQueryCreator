@@ -1,0 +1,30 @@
+{
+  "join": [
+    {
+      "clause": "InnerJoin",
+      "fromTable": "Customer",
+      "fromColumn": "Id",
+      "toTable": "Order",
+      "toColumn": "CustId",
+      "operator": "Equals"
+    },
+    {
+      "clause": "InnerJoin",
+      "fromTable": "Order",
+      "fromColumn": "Id",
+      "toTable": "Product",
+      "toColumn": "OrderId",
+      "operator": "Equals"
+    }
+  ],
+  "tableName": "Customer",
+  "clause": "Where",
+  "columns": [
+    {
+      "operator": "Equals",
+      "fieldName": "Customer.Name",
+      "fieldValue": "Augustin"
+    }
+  ],
+  "selectedColumns": ["Customer.Name", "Order.Id"]
+}

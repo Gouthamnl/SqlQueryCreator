@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "47UzOiGr5BfrH37fnS3sFC4Zh17Cf2hAoVhlzqTpxLc17hR72nSap+E1wc1aIQi2ozWRPZxikRgHuV6SJYfvGQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gnellikatte\\source\\repos\\SqlQueryCreator\\QueryBuilder\\QueryBuilder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gnellikatte\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

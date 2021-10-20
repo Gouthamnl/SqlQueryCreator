@@ -1,0 +1,19 @@
+{
+	"baseData": {
+		"tableName": "Customer",
+		"clause": "Where",
+		"selectedColumns": ["Name","Age","Profession"],
+		"columns": [
+			{
+				"operator": "Equals",
+				"fieldName": "Name",
+				"fieldValue": "Augustin"
+			},
+			{
+				"operator": "GreaterThan",
+				"fieldName": "Age",
+				"fieldValue": "25"
+			}
+		]
+	}
+}
